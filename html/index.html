@@ -3,18 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/normalize.css">
         <title> Design Responsivo</title>
     </head>
     <body>
-        <header>
-            <h1>Design Responsivo</h1>
-            <nav>
-                <button>Abrir/fechar menu</button>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre nós</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+        <header class="cabecalho">
+            <h1 class="logo">Design Responsivo</h1>
+            <nav class="menu-principal">
+                <button class="menu-principa__btn">Abrir/fechar menu</button>
+                <ul class="menu-principal__lista">
+                    <li><a class="menu-principal__item menu-principal__item--atual " href="index.html">Home</a></li>
+                    <li><a class="menu-principal__item" href="sobre.html">Sobre nós</a></li>
+                    <li><a class="menu-principal__item" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
                 </ul>
             </nav>
         </header>
@@ -68,8 +70,34 @@
                 </section>
             </section>
         </main>
-        <footer>
-            
+        <footer class="rodape">
+            <div class="rodape__linha-1">
+                <div class="rodape__coluna">
+                    <a href="index.html" class="logo logo--branco">Desingn Responsivo</a>
+                    <p>to those who fail in their duty through weakness of will, which is the</p>
+                </div>
+                <div class="rodape__coluna">
+                    <h2 class="rodape__titulo">Social</h2>
+                    <ul class="rodape__lista-links">
+                        <li><a class="rodape_lista-links__item" href="http://" target="_blank">Instagram</a></li>
+                        <li><a class="rodape_lista-links__item" href="http://" target="_blank">Whatsapp</a></li>
+                        <li><a class="rodape_lista-links__item" href="http://" target="_blank">Instagram</a></li>
+                        <li><a class="rodape_lista-links__item" href="http://" target="_blank">Whatsapp</a></li>
+                    </ul>
+                </div>
+                <div class="rodape__coluna">
+                    <h2 class="rodape__titulo">Links</h2>
+                    <ul class="rodape__lista-links">
+                        <li><a class="rodape_lista-links__item" href="index.html">Home</a></li>
+                        <li><a class="rodape_lista-links__item" href="sobre.html">Sobre nós</a></li>
+                        <li><a class="rodape_lista-links__item" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="rodape_lista-links__item" href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rodape__linha-2" >
+                © 2022 - Todos os diretos reservados - Leonardo de Andrade    
+            </div>
         </footer>
     </body>
 </html> 

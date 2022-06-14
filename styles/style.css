@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Sorce Sans Pro Bold";
+    src: url('fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf');
+    font-weight: bold;
+}
+
+body {
+    font-family: "Source Sans Pro";
+}
+
+.cabecalho {
+    background-color: #fff;
+}
+
+.logo {
+    background-image: url('../imagens/img/logotipo-preto.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 120px;
+    height: 53px;
+    text-indent: -9999px;
+    margin: 0;
+}
+
+.logo--branco {
+    background-image: url('../imagens/img/logotipo-branco.png');
+}
+
+.menu-principa__btn {
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+  background-color: #fff;
+  background-image: url('../imagens/img/menuprincipal-btn-bg.png');
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  border-color: #c4c4c4;
+  border-style: solid;
+  border-radius: 5px;
+  cursor: pointer; 
+
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.menu-principa__btn--fechar {
+    background-position: -48px 7px;
+}
+
+.menu-principal__lista {
+    padding: 0;
+    list-style: none;
+}
+
+.menu-principal__item {
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #343434;
+}
+
+.menu-principal__item--atual {
+    color: #f44242;
+}
+
+.rodape {
+    color: #fff;
+}
+
+.rodape .logo {
+   margin-bottom: 20px;
+}
+
+.rodape__linha-1 {
+    background-color: #272525;
+    background-image: url("../imagens/img/rodape-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+}
+
+.rodape__linha-2 {
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+}
+
+.rodape__coluna {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.rodape__titulo {
+    border-bottom: 1px solid #fff;
+    padding: 0 10px 10px 10px;
+    font-size: 1.1em;
+}
+
+.rodape__lista-links {
+    list-style: none;
+    padding: 0;
+}
+
+.rodape_lista-links__item {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.rodape_lista-links__item:hover {
+    color: #f44242;
+}
+
+.rodape_lista-links__item::before {
+    content: '>';
+    margin-right: 8px;
+    color: #f44242;
+}
