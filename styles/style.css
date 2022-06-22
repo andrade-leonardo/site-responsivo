@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
+img {
+    max-width: 100%;
+}
+
 @font-face {
     font-family: "Source Sans Pro";
     src: url('fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
@@ -18,6 +23,7 @@ body {
 
 .cabecalho {
     background-color: #fff;
+    padding: 15px;
 }
 
 .logo {
