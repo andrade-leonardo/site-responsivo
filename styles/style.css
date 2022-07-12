@@ -17,6 +17,13 @@ img {
     font-weight: bold;
 }
 
+@font-face {
+    font-family: "Sorce Sans Pro Italic";
+    src: url('fonts/Source_Sans_Pro/SourceSansPro-BoldItalic.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+
 body {
     font-family: "Source Sans Pro";
 }
