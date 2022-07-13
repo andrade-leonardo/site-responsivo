@@ -1,0 +1,54 @@
+.rodape {
+    color: #fff;
+}
+
+.rodape .logo {
+   margin-bottom: 20px;
+}
+
+.rodape__linha-1 {
+    background-color: #272525;
+    background-image: url("../../imagens/img/rodape-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+}
+
+.rodape__linha-2 {
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+}
+
+.rodape__coluna {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.rodape__titulo {
+    border-bottom: 1px solid #fff;
+    padding: 0 10px 10px 10px;
+    font-size: 1.1em;
+}
+
+.rodape__lista-links {
+    list-style: none;
+    padding: 0;
+}
+
+.rodape_lista-links__item {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.rodape_lista-links__item:hover {
+    color: #f44242;
+}
+
+.rodape_lista-links__item::before {
+    content: '>';
+    margin-right: 8px;
+    color: #f44242;
+}
