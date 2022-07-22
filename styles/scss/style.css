@@ -400,7 +400,7 @@ body {
 }
 
 .depoimentos {
-  background-color: #dd3f3f;
+  background-color: #f44242;
   background-image: url("../../imagens/img/cabecalho-pagina-bg.jpg");
   background-attachment: fixed;
   color: #fff;
@@ -465,9 +465,9 @@ body {
   display: block;
   margin: 0 auto;
   background-color: #fff;
-  color: red;
+  color: #f44242;
   padding: 5px 20px;
-  border: 3px solid red;
+  border: 3px solid #f44242;
   border-radius: 300px;
   cursor: pointer;
   font-weight: bold;
@@ -544,7 +544,7 @@ body {
 }
 
 .pagina-cabecalho {
-  background-color: #dd3f3f;
+  background-color: #f44242;
   background-image: url("../../imagens/img/cabecalho-pagina-bg.jpg");
   background-attachment: fixed;
   color: #fff;
@@ -591,7 +591,7 @@ body {
 }
 
 .servicos_texto {
-  color: #585858;
+  color: #3a3a3a;
 }
 
 .cabecalho-home {
@@ -625,7 +625,7 @@ body {
   margin-top: 15px;
   width: 50px;
   height: 3px;
-  background-color: #f00;
+  background-color: #f44242;
 }
 
 .home__titulo--branco::after {

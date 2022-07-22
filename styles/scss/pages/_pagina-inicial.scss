@@ -2,7 +2,7 @@
     background: url('../../imagens/img/cabecalho-home-bg.jpg') #000 no-repeat;
     background-size: cover;
     text-align: center;
-    color: #fff;
+    color: $cor-branca;
     padding: 50px 0;
 }
 .cabecalho-home__titulo {
@@ -27,9 +27,9 @@
     margin-top: 15px;
     width: 50px;
     height: 3px;
-    background-color: #f00;
+    background-color: $cor-principal;
 }
 
 .home__titulo--branco::after{
-    background-color: #fff;   
+    background-color: $cor-branca;
 }
