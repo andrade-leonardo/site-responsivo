@@ -1,9 +1,11 @@
 @import 'abstracts/cores';
+@import 'abstracts/breakpoints';
 
 @import 'base/normalize';
 @import 'base/fontes';
 @import 'base/my-reset';
 
+@import 'layout/container';
 @import 'layout/cabecalho';
 @import 'layout/rodape';
 

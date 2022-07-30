@@ -4,7 +4,11 @@
     text-align: center;
     color: $cor-branca;
     padding: 50px 0;
+    @media(min-width: $breakpoint-lg) {
+        height: 100vh;
+    }
 }
+
 .cabecalho-home__titulo {
     font-weight: bold;
     font-size: 2.2em;
