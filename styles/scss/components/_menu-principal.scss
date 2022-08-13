@@ -11,10 +11,12 @@
     border-style: solid;
     border-radius: 5px;
     cursor: pointer; 
-  
     position: absolute;
     top: 15px;
     right: 15px;
+    @media(min-width: $breakpoint-md) {
+        display: none;
+    }
   }
   
   .menu-principa__btn--fechar {
@@ -24,6 +26,12 @@
   .menu-principal__lista {
       padding: 0;
       list-style: none;
+      @media(min-width: $breakpoint-md) {
+        li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+      }
   }
   
   .menu-principal__item {
