@@ -1,7 +1,11 @@
 .pagina-conteudo {
-    padding: 15px;
     padding-top: 25px;
     padding-bottom: 25px;
+    overflow: auto;
+    @media(min-width: $breakpoint-md) {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
 }
 
 .pagina-conteudo p {

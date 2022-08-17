@@ -6,7 +6,7 @@
     background-color: $cor-branca;
     background-image: url('../../imagens/img/menuprincipal-btn-bg.png');
     background-repeat: no-repeat;
-    background-position: 5px 5px;
+    background-position: -48px 7px;
     border-color: #c4c4c4;
     border-style: solid;
     border-radius: 5px;
@@ -19,13 +19,10 @@
     }
   }
   
-  .menu-principa__btn--fechar {
-      background-position: -48px 7px;
-  }
-  
   .menu-principal__lista {
       padding: 0;
       list-style: none;
+      transition: margin 200ms ease-out;
       @media(min-width: $breakpoint-md) {
         li {
             display: inline-block;
@@ -41,8 +38,26 @@
       margin-bottom: 10px;
       font-size: 1.1em;
       color: #343434;
+      height: 20px;
+      transition: all 200ms ease-out;
   }
   
   .menu-principal__item--atual {
       color: $cor-principal;
   }
+
+  @media(max-width: $breakpoint-md - 1) {
+    .menu-principal--fechado {
+        .menu-principa__btn {
+            background-position: 5px 5px;
+        }
+        .menu-principal__lista {
+            margin: 0;
+        }
+        .menu-principal__item {
+            margin: 0;
+            height: 0;
+            overflow: hidden;
+        }
+    }
+}

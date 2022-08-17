@@ -1,0 +1,6 @@
+.img-left {
+    @media(min-width: $breakpoint-md) {
+        float: left;
+        margin: 8px 15px 15px 0px;
+    }
+}

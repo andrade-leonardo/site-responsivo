@@ -4,8 +4,37 @@
     text-align: center;
     color: $cor-branca;
     padding: 50px 0;
+    padding-top: 150px;
+    @media(min-width: $breakpoint-md) {
+        background-image: url('../../imagens/img/cabecalho-home-bg-md.jpg');
+    }
     @media(min-width: $breakpoint-lg) {
         height: 100vh;
+        .cabecalho-home__titulo{
+            font-size: 60px;
+            margin-top: 10%;
+        }
+        .cabecalho-home__subtitulo{
+            font-size: 22px;   
+        }
+        .cabecalho-home__role {
+            display: block;
+            position: absolute;
+            background: url('../../imagens/img/icone-mouse.png') no-repeat center right;
+            color: $cor-branca;
+            left: 50%;
+            bottom: 10px;
+            height: 50px;
+            width: 190px;
+            text-align: left;
+            font-size: 20px;
+            line-height: 45px;
+            text-decoration: none;
+            margin-left: -95px;
+        }
+    }
+    @media(min-width: $breakpoint-xl) {
+        background-image: url('../../imagens/img/cabecalho-home-bg-xl.jpg');
     }
 }
 
@@ -22,6 +51,7 @@
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 50px;
+    margin-top: 40px;
 }
 
 .home__titulo::after {

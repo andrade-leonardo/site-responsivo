@@ -4,6 +4,7 @@
     &__item {
         text-align: center;
         margin-bottom: 50px;
+        padding: 0 15px;
         @media(min-width: $breakpoint-md) {
             float: left;
             width: 33.333%;

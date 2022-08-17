@@ -4,6 +4,15 @@
     position: relative;
     overflow: hidden;
     margin: 0 -15px -25px -15px;
+    @media(min-width: 450px) {
+        padding-bottom: 70%;
+    }
+    @media(min-width: $breakpoint-md) {
+        padding-bottom: 70%;
+    }
+    @media(min-width: $breakpoint-lg) {
+        padding-bottom: 25%;
+    }
 }
 
 .mapa iframe {

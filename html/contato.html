@@ -6,11 +6,11 @@
         <link rel="stylesheet" href="../styles/scss/style.css">
         <title> Design Responsivo</title>
     </head>
-    <body>
+    <body class="pagina-contato">
         <header class="cabecalho">
             <div class="container">
                 <a href="index.html" class="logo">Design Responsivo</a>
-                <nav class="menu-principal">
+                <nav class="menu-principal menu-principal--fechado">
                     <button class="menu-principa__btn">Abrir/fechar menu</button>
                     <ul class="menu-principal__lista">
                         <li><a class="menu-principal__item" href="index.html">Home</a></li>
@@ -31,11 +31,11 @@
                    reproduced below for those interested. Sections 1.10.32 and
                </p>
                <form action="#" class="formulario">
-                <div class="formulario__grupo">
+                <div class="formulario__grupo formulario__grupo--coluna-esq">
                     <label class="formulario__label" for="nome">Nome</label><br>
                     <input class="formulario__campo" type="text" name="nome" id="nome">
                 </div>
-                <div class="formulario__grupo">
+                <div class="formulario__grupo formulario__grupo--coluna-dir">
                     <label class="formulario__label" for="email">E-mail</label><br>
                     <input class="formulario__campo" type="email" name="email" id="email">
                 </div>
@@ -85,5 +85,6 @@
                 © 2022 - Todos os diretos reservados - Leonardo de Andrade    
             </div>
         </footer>
+        <script type="text/javascript" src="../js/main.js"></script>
     </body>
 </html> 
