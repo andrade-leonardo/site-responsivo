@@ -1,9 +1,38 @@
-let botao = document.querySelector('.menu-principa__btn');
-let menuPrincipal = document.querySelector('.menu-principal');
+$(function() {
+    $('.menu-principa__btn').on('click', function() {
+        $('.menu-principal').toggleClass('menu-principal--fechado');
+    });
 
-botao.addEventListener("click", abreFechaMenu);
+    $('.depoimentos__caixa').slick({
+        autoplay: true,
+        arrows: false,
+        dots: true
+    });
 
-function abreFechaMenu(evento) {
-    menuPrincipal.classList.toggle('menu-principal--fechado');
-}
-
+    $('.formulario').validate({
+        rules: {
+            email: {
+                required: true,
+                email: true,
+            },
+            nome: {
+                required: true,  
+            },
+            mensagem: {
+                required: true,  
+            },
+        },
+        messages: {
+            email: {
+                required: 'Por favor informe o e-mail.',
+                email: 'Preencha o campo com um e-mail válido'
+            },
+            nome: {
+                required: 'Por favor informe o seu nome.',
+            },
+            mensagem: {
+                required: 'Por favor informe a mensagem.',
+            },
+        }
+    });
+});

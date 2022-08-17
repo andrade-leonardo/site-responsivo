@@ -52,3 +52,10 @@
     cursor: pointer;
     font-weight: bold;
 }
+
+label.error {
+    color: $cor-principal;
+    border-left: 4px solid $cor-principal;
+    padding-left: 4px;
+    margin-left: 3px;
+}

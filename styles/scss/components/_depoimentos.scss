@@ -11,10 +11,6 @@
 
 .depoimentos__item {
     padding: 0 15px;
-    @media(min-width: $breakpoint-md) {
-        max-width: 750px;
-        margin: 0 auto;
-    }
 }
 
 .depoimentos__img {
@@ -49,4 +45,9 @@
     width: 25px;
     height: 23px;
     margin-right: 5px;
+}
+
+.depoimentos__caixa {
+    margin: 0 auto;
+    max-width: 750px;
 }
